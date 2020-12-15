@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "tsc",
+    "1": "node build/example1.js",
+    "2": "node build/example2.js",
+    "3": "node build/example3.js",
+    "4": "node build/example4.js",
+    "5": "node build/example5.js",
+    "6": "node build/example6.js",
+    "7": "node build/example7.js",
+    "8": "node build/example8.js",
+    "9": "node build/example9.js"
+  },
+  "keywords": [],
+  "author": "Markus Springer",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+  }
+}

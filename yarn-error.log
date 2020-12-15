@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/ma.springer/.nvm/versions/node/v12.13.1/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add ssh2
+
+PATH: 
+  /Users/ma.springer/.rvm/gems/ruby-2.7.0/bin:/Users/ma.springer/.rvm/gems/ruby-2.7.0@global/bin:/Users/ma.springer/.rvm/rubies/ruby-2.7.0/bin:/Users/ma.springer/.sdkman/candidates/java/current/bin:/Users/ma.springer/.fastlane/bin:/usr/local/opt/gradle/libexec/bin:/Users/ma.springer/Library/Android/sdk/platform-tools:/emulator:/tools:/Library/PostgreSQL/9.5/bin:/Users/ma.springer/.local/bin:/usr/local/sbin:/Users/ma.springer/.nvm/versions/node/v12.13.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/usr/local/mysql/bin:/Library/Apple/usr/bin:/Users/ma.springer/Code/test/nodejs/node_modules/.bin:/Users/ma.springer/.rvm/bin:/Users/ma.springer/.antigen/bundles/zsh-users/zsh-autosuggestions
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/ma.springer/Code/test/nodejs/package.json: Unexpected token } in JSON at position 111
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      ""
+    },
+    "keywords": [],
+    "author": "Markus Springer",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
